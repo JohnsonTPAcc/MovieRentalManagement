@@ -1,0 +1,26 @@
+﻿<!-- LandingPage.razor -->
+@page "/LandingPage"
+@inherits LayoutComponentBase
+
+<div class="landing-page">
+    <div class="landing-header">
+        <h1>Welcome to Movie Rental Management</h1>
+        <p>Explore our vast collection of movies and enjoy hassle-free rentals.</p>
+    </div>
+
+    <div class="landing-buttons">
+        <div class="signup-button">
+            <a href="/authentication/register" class="btn btn-primary">Sign Up</a>
+        </div>
+        <div class="browse-button">
+            <a href="/movies" class="btn btn-secondary">Browse Movies We Provide</a>
+        </div>
+        <div class="rent-button">
+            <a href="/rental" class="btn btn-success">Rent a Movie</a>
+        </div>
+        <div class="specials-button">
+            <a href="/specials" class="btn btn-warning">View Specials</a>
+        </div>
+        <!-- Add more buttons as needed -->
+    </div>
+</div>

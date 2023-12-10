@@ -1,0 +1,25 @@
+﻿/* LandingPage.razor.css */
+.landing-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.landing-header {
+    margin-bottom: 30px;
+}
+
+.landing-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.signup-button,
+.browse-button,
+.rent-button,
+.specials-button,
+/* Add more button styles as needed */ {
+    margin-top: 20px;
+}
